@@ -1,19 +1,26 @@
 <?php
+  session_start();
 
-  $name = $_POST['name'];
-  $email = $_POST['email'];
-  $comment = $_POST['comment'];
-  $od  = 'From: tirek1993@gmail.com \r\n';
-  $od .= 'MIME-Version: 1.0'."\r\n";
-  $od .= 'Content-type: text/html; charset=iso-8859-2'."\r\n";
-  $temat = "Wiadomość ze strony z Portfolio";
+  @$name = $_POST['name'];
+  @$email = $_POST['email'];
+  @$comment = $_POST['comment'];
+
+  $title = "Wiadomość ze strony z Portfolio";
 
   if(mail('ireneuszgaslawski@gmail.com', 'witaj', 'oto funkcja maila')){
-    $_GET['error'] = true;
+
+    $_SESSION['alert'] = '<div class="alert alert-success" style="position: absolute; top:0; left:0;">
+          <strong>Success!</strong> Wiadomość została wysłana!
+          </div>';
+
   }
   else{
-    $_GET['error'] = false;
+
+    $_SESSION['alert'] = '<div class="alert alert-danger" style="position: absolute; top:0; left:0;">
+          <strong>Error!</strong> Wiadomość nie została wysłana! Spróbuj ponownie lub skontaktuj się z administratorem.
+          </div>';
+
   }
-    $_GET['id'] = 'contact';
-    require_once 'index.php';
+    
+    header('location:index.php?id=contact');
  ?>

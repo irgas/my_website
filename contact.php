@@ -1,8 +1,19 @@
+<?php
+  session_start();
+?>
+
 <div id="content" class="container">
   <div id="form" class="row">
 
       <div class="mx-auto">
+        <?php
 
+        if(isset($_SESSION['alert'])){
+          echo $_SESSION['alert'];
+          unset($_SESSION['alert']);
+        }
+        
+        ?>
         <form action="send.php" method="post">
           <div class="form-group">
               <label for="name">Imię i Nazwisko:</label>
@@ -15,22 +26,7 @@
           </div>
 
         </form>
-        <?php
 
-          if (@$_GET['error'] == true) {
-            echo '<div class="alert alert-success" style="position: absolute; top:0; left:0;">
-                  <strong>Success!</strong> Wiadomość została wysłana!
-                  </div>';
-            unset($_GET['error']);
-          }
-          elseif (@$_GET['error'] == false) {
-            echo '<div class="alert alert-danger" style="position: absolute; top:0; left:0;">
-                  <strong>Error!</strong> Wiadomość nie została wysłana! Spróbuj ponownie lub skontaktuj się z administratorem.
-                  </div>';
-            unset($_GET['error']);
-          }
-
-         ?>
 
       </div>
 
