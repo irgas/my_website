@@ -1,0 +1,267 @@
+#blog{
+  display: none;
+}
+
+.navbar{
+  background-color: rgba(110,83,117);
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: 20px;
+  width: 100%;
+  border-bottom: 1px solid #6E5375;
+}
+
+.navbar .navbar-nav .nav-item .nav-link,
+.navbar .navbar-brand,
+.navbar .navbar-brand:visited{
+color:#DDE412;
+font-style: italic;
+text-align: center;
+font-size: 4vmin;
+text-shadow: 2px 2px 4px #152832;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover,
+.navbar .navbar-brand:hover{
+color: #3C9A8F;
+text-shadow: 0 0 2px #6E5375;
+}
+
+#footer{
+  background-color: rgba(110,83,117, 0.8);
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  min-height: 10px;
+  width: 100%;
+  color:#DDE412;
+  font-style: italic;
+  text-align: center;
+  font-size: 3vmin;
+  text-shadow: 2px 2px 4px #152832;
+  border-top: 1px solid #6E5375;
+  }
+
+#icon{
+  width: 60px;
+  height: 60px;
+}
+
+#nav-text{
+  display: block;
+  font-size: 50px;
+  float:right;
+}
+
+#content{
+  background-color: rgba(255,255,255);
+  min-height: 486px;
+  padding: 30px;
+}
+
+.icon{
+  font-size: 30px;
+}
+
+#database{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+}
+
+#content h1{
+  font-style: italic;
+  font-size: 5vmin;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+#content p{
+  font-size: 3vmin;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#content ul li{
+  font-size: 3vmin;
+}
+@media screen and (max-width: 1122px){
+#bar{
+    min-height: 486px;
+    background-color: rgba(21,40,50,0.6);
+    position: sticky;
+    top:111px;
+    left:0px;
+    z-index: 99;
+    display: none;
+}
+
+#advt{
+    min-height: 486px;
+    background-color: rgba(21,40,50);
+    position: sticky;
+    top:113px;
+    right:0px;
+    z-index: 99;
+    text-align: center;
+    display: none;
+}
+
+#content{
+width: 100%;
+}
+}
+
+#ad{
+    height: 484px;
+    width: 222px;
+}
+
+.list-group-item{
+  background-color: rgba(60,154,143, 0.8);
+  border-bottom: 3px solid #152832;
+  width: 100%;
+  height: 50px;
+  font-size: 3vmin;
+  font-style: italic;
+}
+
+.list-group-item:hover{
+  background-color: rgba(94,198,196, 0.8);
+  border-bottom: 3px solid #152832;
+  text-shadow: 2px 2px 4px #152832;
+  cursor: pointer;
+}
+
+.list-group-item:first-child{
+border-top: 3px solid #152832;
+}
+
+.list-group-item a{
+color:#DDE412;
+font-style: italic;
+text-align: center;
+font-size: 3vmin;
+text-shadow: 2px 2px 4px #152832;
+text-decoration: none;
+display: block;
+}
+
+#bottom-bar{
+  text-align: center;
+  padding-top: 0px;
+}
+
+.icon-angle-double-up{
+    color: #DDE412;
+}
+
+.icon-angle-double-up:hover{
+    color: #cc0000;
+    cursor: pointer;
+}
+
+.icon-angle-double-down.icon{
+    color: #DDE412;
+}
+
+.icon-angle-double-down.icon:hover{
+    color: #00b300;
+    cursor: pointer;
+}
+
+.relational_model{
+  text-align: center;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul li{
+  list-style-type: none;
+  font-size: 18px;
+}
+
+ul li a{
+  color: #000000;
+  transition: padding-left .2s ease-in-out;
+}
+
+ul li a:hover.list{
+  text-decoration: none;
+  color: #336600;
+  padding-left: 5px;
+}
+.decoration{
+  border-top: 2px dashed black;
+  margin-top: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.icon-github-circled{
+  color: #000000;
+  display: block;
+  float:left;
+  transition: all .5s ease-in-out;
+  font-size: 35px;
+}
+
+.icon-github-circled:hover{
+  color: #004080;
+  transform: rotate(360deg);
+}
+
+.icon-file-image{
+  color:#000000;
+  display: block;
+  float:left;
+  transition: all .5s ease-in-out;
+  font-size: 35px;
+}
+
+.icon-file-image:hover{
+  color:#ff3300;
+  transform: rotateY(360deg);
+}
+
+.heading{
+  color: #000000;
+  text-align: center;
+}
+
+form{
+  border:1px solid black;
+  border-radius: 5px;
+  padding: 50px;
+  padding-bottom: 30px;
+}
+
+.form-control{
+  margin-bottom: 15px;
+}
+
+#button{
+  position: relative;
+  bottom:0px;
+  left: 70px;
+}
+
+h4{
+  font-size: 4vmin;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+
+ul h5{
+  font-size: 3vmin;
+  padding-top: 5px;
+}
+
+ul ul li h6{
+  font-size: 2.4vmin;
+}
