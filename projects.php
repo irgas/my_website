@@ -51,7 +51,7 @@
                     <i class="icon-github-circled"></i>
                   </a>
                   <a target="_blank" href="img/Przedszkole.jpg" title="Zdjęcie modelu danych">
-                    <i class="icon-file-image"></i>
+                    <i class="icon-picture"></i>
                   </a>
               </div>
             </div>
@@ -107,7 +107,7 @@
                     <i class="icon-github-circled"></i>
                   </a>
                   <a target="_blank" href="img/Przedszkole.jpg" title="Zdjęcie modelu danych">
-                    <i class="icon-file-image"></i>
+                    <i class="icon-picture"></i>
                   </a>
               </div>
             </div>

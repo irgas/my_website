@@ -1,13 +1,15 @@
 
 .icon-mail:before { content: '\e800'; } /* '' */
-.icon-download:before { content: '\e801'; } /* '' */
-.icon-folder:before { content: '\e802'; } /* '' */
+.icon-folder:before { content: '\e801'; } /* '' */
+.icon-download:before { content: '\e802'; } /* '' */
 .icon-home:before { content: '\e803'; } /* '' */
+.icon-picture:before { content: '\e804'; } /* '' */
 .icon-github-circled:before { content: '\f09b'; } /* '' */
 .icon-mail-alt:before { content: '\f0e0'; } /* '' */
 .icon-linkedin:before { content: '\f0e1'; } /* '' */
 .icon-angle-double-up:before { content: '\f102'; } /* '' */
 .icon-angle-double-down:before { content: '\f103'; } /* '' */
+.icon-desktop:before { content: '\f108'; } /* '' */
 .icon-database:before { content: '\f1c0'; } /* '' */
 .icon-file-image:before { content: '\f1c5'; } /* '' */
 .icon-user-circle-o:before { content: '\f2be'; } /* '' */
