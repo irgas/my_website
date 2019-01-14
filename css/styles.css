@@ -216,7 +216,7 @@ ul li a:hover.list{
   transform: rotate(360deg);
 }
 
-.icon-file-image{
+.icon-picture{
   color:#000000;
   display: block;
   float:left;
@@ -224,8 +224,21 @@ ul li a:hover.list{
   font-size: 35px;
 }
 
-.icon-file-image:hover{
+.icon-picture:hover{
   color:#ff3300;
+  transform: rotateX(360deg);
+}
+
+.icon-desktop{
+  color:#000000;
+  display: block;
+  float:left;
+  transition: all .5s ease-in-out;
+  font-size: 35px;
+}
+
+.icon-desktop:hover{
+  color:#006600;
   transform: rotateY(360deg);
 }
 

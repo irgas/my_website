@@ -47,11 +47,14 @@
 
             <div class="row">
               <div class="mx-auto">
-                  <a href="#" title="Repozytorium github z kodem aplikacji">
+                  <a target="_blank" href="https://github.com/irgas/delivery_company" title="Repozytorium github z kodem aplikacji">
                     <i class="icon-github-circled"></i>
                   </a>
                   <a target="_blank" href="img/Przedszkole.jpg" title="Zdjęcie modelu danych">
                     <i class="icon-picture"></i>
+                  </a>
+                  <a target="_blank" href="http://city.wsisiz.edu.pl:8080/apex/f?p=FIRMAKURIERSKA" title="Aplikacja">
+                    <i class="icon-desktop"></i>
                   </a>
               </div>
             </div>
@@ -103,11 +106,14 @@
 
             <div class="row">
               <div class="mx-auto">
-                  <a href="#" title="Repozytorium github z kodem aplikacji">
+                  <a target="_blank" href="https://github.com/irgas/food_warehouse" title="Repozytorium github z kodem aplikacji">
                     <i class="icon-github-circled"></i>
                   </a>
-                  <a target="_blank" href="img/Przedszkole.jpg" title="Zdjęcie modelu danych">
+                  <a target="_blank" href="img/hurtownia.jpg" title="Zdjęcie modelu danych">
                     <i class="icon-picture"></i>
+                  </a>
+                  <a target="_blank" href="http://city.wsisiz.edu.pl:8080/apex/f?p=HURTOWNIA" title="Aplikacja(Niedostępna możliwość generowania raportów)">
+                    <i class="icon-desktop"></i>
                   </a>
               </div>
             </div>
