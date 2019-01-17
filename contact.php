@@ -1,19 +1,9 @@
-<?php
-  session_start();
-?>
 
 <div id="content" class="container">
   <div id="form" class="row">
 
       <div class="mx-auto">
-        <?php
 
-        if(isset($_SESSION['alert'])){
-          echo $_SESSION['alert'];
-          unset($_SESSION['alert']);
-        }
-        
-        ?>
         <form action="send.php" method="post">
           <div class="form-group">
               <label for="name">Imię i Nazwisko:</label>

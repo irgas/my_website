@@ -19,8 +19,20 @@
           font-family: 'Kalam';
         }
     </style>
+    <?php
+      session_start();
+    ?>
   </head>
   <body>
+
+    <?php
+
+    if(isset($_SESSION['alert'])){
+      echo $_SESSION['alert'];
+      unset($_SESSION['alert']);
+    }
+
+    ?>
     <?php require_once 'navigation.php'; ?>
     <div class="container-fluid">
       <div class="row">
